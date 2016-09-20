@@ -8,8 +8,8 @@ connections.getConnection = function(dbname, callback){
         connectionLimit : 100,
     		host: "localhost",
     		user: "root",
-    		password: "happiestminds",
-    		database: "expert-system"
+    		password: "Happiest@123",
+    		database: "expert_systems"
   	});
 
     pool.getConnection(function(err, con) {
